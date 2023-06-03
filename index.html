@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Carousel Page.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand">Carousel</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#nvabarCollapse"
+              aria-expanded="false"
+              aria-controls="navbarCollapse"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a href="#" aria-current="page" class="nav-link active"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link disabled"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  type="search"
+                  placeholder="Search"
+                  aria-label="earch"
+                  class="form-control me-2"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-mgl">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>
+                Some representative placeholder content for the first slide of
+                the carousel.
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-im2">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>
+                Some representative placeholder content for the second slide of
+                the carousel.
+              </p>
+              <p><a href="#" class="btn btn-lg btn-primary">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-img3">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>
+                Somre representative placeholder content for the thired slide of
+                this carousel
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">Browse gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <button
+          class="active"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          aria-label="Slide 1"
+          aria-current="ture"
+        ></button>
+        <button
+          class=""
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          class=""
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <pan class="carousel-control-next-icon" aria-hidden="true"></pan
+        ><span class="cisually-hidden">Next</span>
+      </button>
+    </nav>
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-style">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="clay-banks-u27Rrbs9Dwc-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Example headline.</h1>
+            <p class="lead col-md my-4">
+              Some representative placeholder control for the first slide of the
+              carousel
+            </p>
+            <button type="button" class="btn btn-primary">Sign up today</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="clay-banks-u27Rrbs9Dwc-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="clay-banks-u27Rrbs9Dwc-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="d-flex">
+        <div class="p-2 w-100">
+          <div class="d-flex flex-row bd-dark mb-3">
+            <div class="p-2 bd-highlight">
+              <p class="lead">&copy;2017 - 2021 Company, Inc.</p>
+            </div>
+            <div class="p-2 bd-highlight text-primary">Privacy</div>
+            <div class="p-2 bd-highlight text-primary">Term</div>
+          </div>
+        </div>
+        <div class="p-2 flex-shrink-1">
+          <button
+            type="button"
+            class="btn text-primary button-footer"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="top"
+            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+          >
+            Back to top
+          </button>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

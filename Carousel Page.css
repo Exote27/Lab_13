@@ -1,0 +1,36 @@
+.carousel-caption {
+  position: absolute;
+  right: 50%;
+  bottom: 80px;
+  padding-top: 1.25rem;
+  padding-bottom: 400px;
+  color: #fff;
+  text-align: left;
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(..);
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(...);
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(...);
+}
+
+.button-footer {
+  height: 40px;
+  width: 150px;
+}
+
+.carousel-style {
+  width: 100%;
+}
